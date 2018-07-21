@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
-import com.sharma.nk.cm.svcs.CustomerRepositoryImpl;
 import com.sharma.nk.cm.svcs.CustomerRepositoryNoDbImpl;
 
 @SpringBootApplication
