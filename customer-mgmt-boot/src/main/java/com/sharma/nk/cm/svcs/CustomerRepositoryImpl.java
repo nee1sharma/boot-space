@@ -8,6 +8,7 @@ import com.sharma.nk.cm.models.Customer;
 
 @Repository
 @Profile("mysql")
+//Jpa repository interface is extended for customer repository
 public interface CustomerRepositoryImpl extends JpaRepository<Customer, String> {
 
 }
