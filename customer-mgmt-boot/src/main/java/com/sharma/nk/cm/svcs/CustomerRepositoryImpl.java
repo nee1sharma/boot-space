@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import com.sharma.nk.cm.models.Customer;
 
 @Repository
-@Profile("mysql")
+@Profile({"mysql","h2"})
 //Jpa repository interface is extended for customer repository
 public interface CustomerRepositoryImpl extends JpaRepository<Customer, String> {
 
